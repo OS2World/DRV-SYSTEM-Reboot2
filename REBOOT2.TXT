@@ -1,0 +1,15 @@
+REBOOT2:  A reboot utility for OS/2 systems
+
+Using REBOOT2
+
+Copy the files REBOOTDR.SYS and REBOOT2.EXE to a convenient place (here I'll
+assume it's the root directory C:\).
+
+Add the following line to your CONFIG.SYS file for OS/2:
+     DEVICE=C:\REBOOTDR.SYS
+
+Reboot your computer and you should see the message "OS/2 reboot driver
+loaded.  Type REBOOT2 to reboot system."
+
+Now you can just type REBOOT2 to reboot your computer.
+
